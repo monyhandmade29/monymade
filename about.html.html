@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>MONYMADE STORE</title>
+        <link rel="stylesheet" href="styles.css.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+        </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html.html"><img src="images/Screenshot_٢٠٢٤٠٥١٥-١٧٠٩٢٢_Adobe_Acrobat-removebg-preview.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html.html">HOME</a></li>
+                        <li><a href="about.html.html">ABOUT US</a></li>
+                        <li><a href="portofolio.html.html">PORTOFOLIO</a></li>
+                        <li><a href="blog.html.html">BLOG</a></li>
+                        <li><a href="contact.html.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+          <h1>ABOUT US</h1>
+
+        </section>
+
+        <!-- --------abut us content------- -->
+
+        <section class="about-us">
+          <div class="row">
+             <div class="about-col">
+               <h2>CRAFTING DREAMS: OUR STORY</h2>
+               <p>In the heart of our creative sanctuary, each stitch tells a story of passion and purpose. Welcome to our store, where our journey began with a needle in one hand and a dream in the other.<br>
+                Founded by "omnia alaraby" with a vision to intertwine elegance with craftsmanship, our handmade bags reflect a timeless dedication to quality and authenticity.
+                 <br>From the delicate selection of materials to the meticulous attention to detail, every creation is infused with a labor of love that transcends the ordinary.<br> Join us on this enchanting voyage as
+                  we invite you to discover the essence of our store where craftsmanship meets inspiration,
+                  and dreams are woven into reality, one bag at a time.
+               </p>
+               <a href="portofolio.html.html" class="hero-btn pink-btn">EXPLORE NOW</a>
+
+
+             </div>
+             <div class="about-col">
+                <img src="images/bags 4.jpg" >
+             </div>
+          </div>
+        </section>
+        
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>we blend passion and craftsmanship to create exquisite handmade bags that reflect timeless elegance and individual style.
+     </p>
+     <div class="icons">
+        <a href="https://www.facebook.com/profile.php?id=100067982839412&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <i class="fa-brands fa-twitter"></i>
+        <a href="https://www.instagram.com/mony_handmadee?igsh=NTc4MTIwNjQ2YQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <i class="fa-brands fa-linkedin-in"></i>
+     </div>
+     <p>Made with <i class="fa-regular fa-heart"></i>  by M&M AGENCY</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- ------------------javascript for menu------------ -->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right ="0";
+            }
+            function hideMenu(){
+                navLinks.style.right ="-200px"
+            }
+        </script>
+    </body>
+
+</html>
